@@ -7,7 +7,7 @@
 4. [x] Delete all files from `main` branch
 5. [x] Create README.md
 6. [x] Create Progress_report.md
-7. [ ] Commit and push cleaned `main` to remote
+7. [x] Commit and push cleaned `main` to remote
 
 ## Progress
 
