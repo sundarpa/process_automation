@@ -1,1 +1,0 @@
-tquery --project testing_demo --rev r1_secn14lpp --query delete_sku_definition.query

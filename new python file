@@ -1,1 +1,0 @@
-If Dir("C:\Path\To\Your\File.txt") = "" Then MsgBox "Selected file does not exist: " & Application.GetOpenFilename("All Files (*.*), *.*")

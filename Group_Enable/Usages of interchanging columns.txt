@@ -1,8 +1,0 @@
-update_and_relocate_columns:
-python your_script.py --file_path your_file.csv --id_number 2 --column_name sku_mcn --new_value QBIN_4 --new_position 3
-python script_name csvfilename id(which want to update) column name(which want to update) updatingvalue(new_value which you want to update) position where you want to move
-
-python fetching_csv.py --file_path sku_definition_id.csv --id_number 2 --column_name sku_mcn --new_value QBIN_4 --new_position 3
-
-modifying_excel
-python updating_csv.py --input_file qultivate_phasing.xlsx --output_file modified_qultivate_phasing.xlsx --intercange_cols NO_MODEM NO_AI --new_col_name NEW_COLUMN --new_col_values 1 --default_value - 

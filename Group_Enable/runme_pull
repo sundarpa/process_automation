@@ -1,1 +1,0 @@
-qultivate_phasing -project testing_demo -rev r1_secn14lpp -block ATPG_FA -out_path /prj/vlsi/pete/ptetools/prod/tss/runcommands/supportFiles/sundara/ -pull

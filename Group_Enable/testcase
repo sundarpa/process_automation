@@ -1,9 +1,0 @@
-./runme_deleteSku
-./runme_getSku
-\cp -f /prj/vlsi/pete/ptetools/prod/tss/runcommands/TestCaseGoldenData/qultivate_phasing/sku_definition.xlsx /prj/vlsi/pete/ptetools/prod/tss/runcommands/supportFiles/sundara/
-./runme_addSku
-./runme_getSku
-\cp -f /prj/vlsi/pete/ptetools/prod/tss/runcommands/TestCaseGoldenData/qultivate_phasing/qultivate_phasing_set.xlsx /prj/vlsi/pete/ptetools/prod/tss/runcommands/supportFiles/sundara/qultivate_phasing.xlsx
-./runme_push
-./runme_pull
-

@@ -1,2 +1,0 @@
-./qultivate_phasing.py -project testing_demo -rev r1_secn14lpp -block ATPG_FA -out_path /usr2/patnaiku/Desktop/1.5.1/ -pull
-./qultivate_phasing.py -project testing_demo -rev r1_secn14lpp -block ATPG_FA -pushfile /usr2/patnaiku/Desktop/1.5.1/ -push
