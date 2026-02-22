@@ -1,0 +1,10 @@
+deepagents-cli
+deepagents
+dragonai
+langchain-core
+langchain-text-splitters
+langchain-community
+pydantic
+rich
+pytz
+pandas

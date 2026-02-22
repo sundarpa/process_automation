@@ -1,0 +1,71 @@
+﻿
+
+ ΓûêΓûêΓûêΓûêΓûêΓûêΓòù  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓòù ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓòù ΓûêΓûêΓûêΓûêΓûêΓûêΓòù
+ ΓûêΓûêΓòöΓòÉΓòÉΓûêΓûêΓòù ΓûêΓûêΓòöΓòÉΓòÉΓòÉΓòÉΓò¥ ΓûêΓûêΓòöΓòÉΓòÉΓòÉΓòÉΓò¥ ΓûêΓûêΓòöΓòÉΓòÉΓûêΓûêΓòù
+ ΓûêΓûêΓòæ  ΓûêΓûêΓòæ ΓûêΓûêΓûêΓûêΓûêΓòù   ΓûêΓûêΓûêΓûêΓûêΓòù   ΓûêΓûêΓûêΓûêΓûêΓûêΓòöΓò¥
+ ΓûêΓûêΓòæ  ΓûêΓûêΓòæ ΓûêΓûêΓòöΓòÉΓòÉΓò¥   ΓûêΓûêΓòöΓòÉΓòÉΓò¥   ΓûêΓûêΓòöΓòÉΓòÉΓòÉΓò¥
+ ΓûêΓûêΓûêΓûêΓûêΓûêΓòöΓò¥ ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓòù ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓòù ΓûêΓûêΓòæ
+ ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥  ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥ ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥ ΓòÜΓòÉΓò¥
+
+  ΓûêΓûêΓûêΓûêΓûêΓòù   ΓûêΓûêΓûêΓûêΓûêΓûêΓòù  ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓòù ΓûêΓûêΓûêΓòù   ΓûêΓûêΓòù ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓòù ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓòù
+ ΓûêΓûêΓòöΓòÉΓòÉΓûêΓûêΓòù ΓûêΓûêΓòöΓòÉΓòÉΓòÉΓòÉΓò¥  ΓûêΓûêΓòöΓòÉΓòÉΓòÉΓòÉΓò¥ ΓûêΓûêΓûêΓûêΓòù  ΓûêΓûêΓòæ ΓòÜΓòÉΓòÉΓûêΓûêΓòöΓòÉΓòÉΓò¥ ΓûêΓûêΓòöΓòÉΓòÉΓòÉΓòÉΓò¥
+ ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓòæ ΓûêΓûêΓòæ  ΓûêΓûêΓûêΓòù ΓûêΓûêΓûêΓûêΓûêΓòù   ΓûêΓûêΓòöΓûêΓûêΓòù ΓûêΓûêΓòæ    ΓûêΓûêΓòæ    ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓòù
+ ΓûêΓûêΓòöΓòÉΓòÉΓûêΓûêΓòæ ΓûêΓûêΓòæ   ΓûêΓûêΓòæ ΓûêΓûêΓòöΓòÉΓòÉΓò¥   ΓûêΓûêΓòæΓòÜΓûêΓûêΓòùΓûêΓûêΓòæ    ΓûêΓûêΓòæ    ΓòÜΓòÉΓòÉΓòÉΓòÉΓûêΓûêΓòæ
+ ΓûêΓûêΓòæ  ΓûêΓûêΓòæ ΓòÜΓûêΓûêΓûêΓûêΓûêΓûêΓòöΓò¥ ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓòù ΓûêΓûêΓòæ ΓòÜΓûêΓûêΓûêΓûêΓòæ    ΓûêΓûêΓòæ    ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓòæ
+ ΓòÜΓòÉΓò¥  ΓòÜΓòÉΓò¥  ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥  ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥ ΓòÜΓòÉΓò¥  ΓòÜΓòÉΓòÉΓòÉΓò¥    ΓòÜΓòÉΓò¥    ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+                                              v0.0.13
+
+
+Usage:
+  deepagents [OPTIONS]                           Start interactive 
+session
+  deepagents list                                List all available 
+agents
+  deepagents reset --agent AGENT                 Reset agent to 
+default prompt
+  deepagents reset --agent AGENT --target SOURCE Reset agent to copy
+of another agent
+  deepagents help                                Show this help 
+message
+  deepagents --version                           Show deepagents 
+version
+
+Options:
+  --agent NAME                  Agent identifier (default: agent)
+  --model MODEL                 Model to use (e.g., 
+claude-sonnet-4-5-20250929, gpt-4o)
+  --auto-approve                Auto-approve tool usage without 
+prompting
+  --sandbox TYPE                Remote sandbox for execution (modal,
+runloop, daytona)
+  --sandbox-id ID               Reuse existing sandbox (skips 
+creation/cleanup)
+  -r, --resume [ID]             Resume thread: -r for most recent, 
+-r <ID> for specific
+
+Examples:
+  deepagents                              # Start with default agent
+  deepagents --agent mybot                # Start with agent named 
+'mybot'
+  deepagents --model gpt-4o               # Use specific model 
+(auto-detects provider)
+  deepagents -r                           # Resume most recent 
+session
+  deepagents -r abc123                    # Resume specific thread
+  deepagents --auto-approve               # Start with auto-approve 
+enabled
+  deepagents --sandbox runloop            # Execute code in Runloop 
+sandbox
+
+Thread Management:
+  deepagents threads list                 # List all sessions
+  deepagents threads delete <ID>          # Delete a session
+
+Interactive Features:
+  Enter           Submit your message
+  Ctrl+J          Insert newline
+  Shift+Tab       Toggle auto-approve mode
+  @filename       Auto-complete files and inject content
+  /command        Slash commands (/help, /clear, /quit)
+  !command        Run bash commands directly
+

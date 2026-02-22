@@ -17,3 +17,5 @@
 - Deleted all project files from `main` branch.
 - Created `README.md` and `Progress_report.md`.
 - Committed and pushed clean `main` to remote.
+- Copied contents of `C:\projects\qgenie-cli\qgeniehw_cli_standalone` into repo.
+- Committed and pushed new content to `main`.
