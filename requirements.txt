@@ -1,3 +1,4 @@
+cryptography
 deepagents-cli
 deepagents
 dragonai

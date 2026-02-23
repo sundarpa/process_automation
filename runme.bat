@@ -2,22 +2,23 @@
 setlocal EnableDelayedExpansion
 
 REM ============================================================
-REM  QGENIE HW CLI Agent - Launcher
-REM  API key is encrypted using Windows DPAPI (machine+user bound).
-REM  Run setup_key.bat once to encrypt and embed your API key.
+REM  QGENIE HW CLI Agent - Launcher (Windows)
+REM  API key is encrypted with Windows DPAPI (machine+user bound).
+REM  Stored in: %USERPROFILE%\Documents\.tscript
+REM  Run setup_key.bat once to encrypt and store your API key.
 REM ============================================================
 
-REM Encrypted API key - populated by setup_key.bat
-set "ENCRYPTED_KEY=SETUP_REQUIRED"
+set "KEYFILE=%USERPROFILE%\Documents\.tscript"
 
-if "!ENCRYPTED_KEY!"=="SETUP_REQUIRED" (
-    echo ERROR: API key not set. Please run setup_key.bat first.
+if not exist "!KEYFILE!" (
+    echo ERROR: API key not found at !KEYFILE!
+    echo Please run setup_key.bat first.
     pause
     exit /b 1
 )
 
 REM Decrypt the key using PowerShell DPAPI
-for /f "delims=" %%i in ('powershell -NoProfile -Command "$enc='!ENCRYPTED_KEY!'; $sec=ConvertTo-SecureString $enc; $bstr=[System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($sec); [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($bstr)"') do set "QGENIE_API_KEY=%%i"
+for /f "delims=" %%i in ('powershell -NoProfile -NonInteractive -Command "$p=Join-Path([Environment]::GetFolderPath('MyDocuments')) '.tscript'; $e=Get-Content $p; $s=ConvertTo-SecureString $e; $b=[Runtime.InteropServices.Marshal]::SecureStringToBSTR($s); [Runtime.InteropServices.Marshal]::PtrToStringAuto($b)"') do set "QGENIE_API_KEY=%%i"
 
 if "!QGENIE_API_KEY!"=="" (
     echo ERROR: Failed to decrypt API key. Try running setup_key.bat again.

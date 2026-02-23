@@ -21,3 +21,13 @@
 - Committed and pushed new content to `main`.
 - Created `runme.bat` with Windows DPAPI-encrypted API key support.
 - Created `setup_key.bat` for one-time key encryption setup.
+
+### 2026-02-23
+- Moved encrypted key storage outside the repo:
+  - Windows: `%USERPROFILE%\Documents\.tscript` (DPAPI encrypted)
+  - Unix: `~/.tscript` (Python Fernet encrypted, machine+user bound)
+- Updated `runme.bat` to read/decrypt from `%USERPROFILE%\Documents\.tscript`.
+- Updated `setup_key.bat` to encrypt and save to `%USERPROFILE%\Documents\.tscript`.
+- Created `setup_key.sh` for Unix one-time key encryption setup.
+- Updated `runme_unix.sh` to read/decrypt from `~/.tscript`.
+- Added `cryptography` to `requirements.txt` (needed for Fernet on Unix).
