@@ -19,3 +19,5 @@
 - Committed and pushed clean `main` to remote.
 - Copied contents of `C:\projects\qgenie-cli\qgeniehw_cli_standalone` into repo.
 - Committed and pushed new content to `main`.
+- Created `runme.bat` with Windows DPAPI-encrypted API key support.
+- Created `setup_key.bat` for one-time key encryption setup.
